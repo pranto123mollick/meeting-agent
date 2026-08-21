@@ -1,0 +1,13 @@
+# See https://github.com/github/linguist
+# Language detection rules
+
+dist/* linguist-vendored
+
+*.gif binary
+src/*.ts linguist-detectable
+docs/*.html linguist-vendored
+
+build/* linguist-vendored
+*.min.css linguist-generated
+docs/** linguist-vendored
+src/**/*.tsx linguist-detectable
